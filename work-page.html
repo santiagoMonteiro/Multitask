@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multitask</title>
+    <link rel="stylesheet" href="./work-page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Itens de Rotina</h1>
+      <a href="#" id="add-button" title="Adicionar Items">+</a>
+    </header>
+
+    <main>
+      <section id="card-container">
+        <div class="card">
+          <p>
+            Tempo total<br />
+            disponível:
+          </p>
+          <div id="total-time">24 h : 00 m</div>
+        </div>
+
+        <div class="card">
+          <p>
+            Pontuação<br />
+            total:
+          </p>
+          <div id="total-points">0 Pontos</div>
+        </div>
+      </section>
+
+      <section id="work-bench">
+        <p id="info-message" class="hidden">
+          # Coloque aqui suas <br />
+          tarefas do dia
+        </p>
+        <ul id="items-container"></ul>
+      </section>
+    </main>
+
+    <a href="#" id="stop-button">Encerrar Rotina</a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
